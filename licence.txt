@@ -1,0 +1,12 @@
+
+Copyright (c) 2026 Simmi Kumari
+
+All rights reserved.
+
+This project and its source code are the intellectual property of the author.
+
+Unauthorized copying, modification, distribution, or use of this project,
+via any medium, is strictly prohibited without the explicit permission
+of the author.
+
+This project is created for academic purposes.
