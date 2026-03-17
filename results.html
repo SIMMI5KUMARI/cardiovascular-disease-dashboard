@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Prediction Result</title>
+
+<style>
+
+body{
+
+font-family:Arial;
+background:linear-gradient(120deg,#5f9cff,#6be7c8);
+margin:0;
+padding:0;
+
+}
+
+.container{
+
+width:450px;
+margin:100px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+
+}
+
+h2{
+
+margin-bottom:20px;
+
+}
+
+.progress{
+
+width:100%;
+background:#ddd;
+border-radius:10px;
+overflow:hidden;
+
+}
+
+.bar{
+
+height:20px;
+background:red;
+width: {{probability}}%;
+
+}
+
+button{
+
+margin-top:20px;
+padding:10px 20px;
+border:none;
+background:#4CAF50;
+color:white;
+border-radius:5px;
+cursor:pointer;
+
+}
+
+button:hover{
+
+background:#45a049;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Prediction Result</h2>
+
+<h3>{{prediction}}</h3>
+
+<p>Risk Probability: {{probability}}%</p>
+
+<div class="progress">
+
+<div class="bar"></div>
+
+</div>
+
+<a href="/">
+
+<button>Check Again</button>
+
+</a>
+
+</div>
+
+</body>
+
+</html>
